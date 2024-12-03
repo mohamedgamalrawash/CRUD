@@ -1,0 +1,41 @@
+body{
+    height: 200vh;
+}
+header{
+    background-image: url(imges/slider-02.jpg);
+    background-color: rgb(0, 0, 0,.7    );
+}
+
+
+.main-color{
+    color: #ff206e;
+}
+.social-icon i{
+    border: 1px solid #333;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.social-icon i:hover{
+    border: 1px solid #fff;
+    color: black;
+}
+.title{
+
+    position: relative;
+}
+.title h2{
+    font-size: 60px;
+    color: #ccc;
+    font-weight: 900;
+}
+.title h3{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 900;
+    transform: translate(-50% ,-50%);
+    
+}
+

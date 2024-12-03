@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  
+
+</head>
+<body>
+
+  <div class=" w-75 m-auto p-5 crud">
+    <label for="">Product Name</label>
+    <input id="productName" type="text" class="form-control">
+    <label for="">Product Price</label>
+    <input id="productPrice" type="number" class="form-control"> 
+    <label>Product Category</label>
+    <input id="productCategory" type="text" class="form-control">
+    <label for="">Product Description</label>
+    <textarea id="productDesc" class="form-control" name="" ></textarea>
+    <button id="addBtn" class="btn btn-outline-dark float-end my-3">Add Product</button>
+    <div class="clearfix"></div>
+    <input id="searchInput" type="text" placeholder="search by name...." class="form-control my-2">
+
+    <table class="table">
+      <thead>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Describtion</th>
+        <th></th>
+        <th></th>
+      </thead> 
+      <tbody id="tableBody">
+        
+      </tbody>
+    </table> 
+
+  </div>
+
+ 
+
+ <script src="../js/bootstrap.bundle.min.js"></script>
+ <script src="crud.js"></script>
+</body>
+</html>

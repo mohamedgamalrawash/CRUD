@@ -1,0 +1,138 @@
+/*
+  Comment CSS
+  CSS
+  Coloring system  
+  red , green , blue
+  1-hexa system
+  #00 00 00        black(0---a---f)
+  
+  ff ff ff white
+  88 88 88 gray
+  00 99 cc == 09c
+
+  2-rgb system
+  red, green ,blue
+  rgb(0-255 ,0-255 ,0-255)
+  
+  rgb(0,0,0)    black
+  rgb(255,255,255)    white
+
+  color zilla extention    to qout color
+
+  الصور لا تتأثر بالديف ولكن لازم تعمل الصورة لوحدها فى Css
+ */
+/* .test {
+  width: 200px;
+  height: 200px; 
+  background-color: #09c;
+   */
+  /*border properties */
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: #f00; */
+  /* border-bottom: solid 10px yellow ;
+  border-left: solid 10px gray; 
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%; */
+  /*spacing
+  margin
+  padding
+  */
+  /* float: left; */
+  /* 
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+   */
+  /* padding:50px 30px 40px 60px;
+  padding: auto;
+  margin: 10px 10px;
+
+}
+*/
+/* .clr {
+  clear: both;
+} */
+
+/*
+ 3-position 
+:default  static 
+ value   absolute ,fixed ,relative ,sticky
+ absolute الحاجه اللى فوق بتتحرك بالنسبه للى وراها
+ واللى وراها relative
+ 
+when you use position 
+1-layers relative
+2-fixed ex navbar 
+
+4-z-index ,when to use
+
+
+*/
+ /*
+  responsive web design (rwd) media query
+  600px (small devices)
+  601 - 768px (meduim devices)
+  769 - 992px (large)
+  992-1200(xlarge)
+  */
+  /*
+   box-sizing 
+  :default    content-box  بيحسب البوردر والبادينج زياده عن العرض 
+   value            border-box بيحسب من ضمن العرض   
+   */
+   /*
+   ===== overflow ===== تدفق زائد عن المحتوى بتاعنا
+   value  
+   1-hidden  بتخفى الزائد عن المحتوى 
+   2-scroll   بتعمل اسكرول للمحتوى لو فيه زياده او لا
+   3-auto    لو فى محتوى زائد بتعمل اسكرول مفيش مبتعملش
+  ****المشاكل اللى حلها overflow *****
+  1- margin_collapse ,floated elements
+   */
+/*    
+  ==== hover==== ايفينت فى CSS 
+  default  0s
+  1- transition للتحكم فى المده والظهور 
+  الترتيب*duration delay property timing-function  
+  2-transform    (rotate ,scale ,skew ,translate )
+
+  ==== display ====
+  1-none  بتخفى وبتحجز
+  2-visisbilty  بتخفى ولا تحجز 
+  3-opacity   درجة الشفافيه
+ */
+
+ 
+
+/* @media screen and (max-width:600px) {
+  .member{
+    width: 100%;
+    font-size: 20px;
+  }
+  
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+  .member{
+    width: 50%;
+  }
+}
+@media screen and (min-width:769px) and (max-width:992px)  {
+  .member{
+    width: 33.3333333%;
+  }
+}
+@media screen and (min-width:993px) {
+
+  
+} */
+
+.nadia{
+  background-color: blue;
+}
+
+
+
+
+

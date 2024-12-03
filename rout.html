@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  
+
+</head>
+<body>
+ <!--  CSS--cascading style sheet
+    1-internal
+    2-external 
+    3-inline 
+     --> 
+    <!-- 
+     inline tag  vs  block tag 
+     block tags(h1...h6, div, ul, ol, li ,p,,,,) بيقفل نفسه على العرض
+     inline(img,a,input,label,span,,,,,,)
+     -->   
+
+  <!--
+    1-bootstrap components
+    2-bootstrap utitlies
+    3-bootstrap grid system 
+
+    -felxbox
+    -100%  -- 12  columns 
+    - xs ,sm ,ms ,lg ,xl ,xxl ,.......... 
+
+    html5 vs html
+    1-graphics(svg ,canvas)
+    2-media tags
+    3-semantic tags  كلمه بتدل على المعنى اللى هى بتعمله زى form ,nav
+
+    units
+    1-absloute units (px)
+    2-relative units (rem ,em ,%) الوحدات دى على حسب الوحدات الاساسيه
+    rem بتيص على الخط الاساسى بتاع html
+    em بتبص على الخط بتاع الديف اللى موجوده فيه
+
+  -->
+  <!-- <div class="bg-info text-warning w-50 h-auto m-auto p-5 text-center float-end d-flex justify-content-between align-items-center border-warning position-absolute top-50 rounded-circle ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, quasi.</div>
+  <div class="clearfix"></div> -->
+
+  <!-- <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-lg-3">
+        <div class="about-img bg-info ">
+          <img class="w-100 rounded-circle" src="imges/ two.png" alt="">
+          <h3>Name: </h3>
+          <h4>Ahmed Bahnasy</h4>
+          <h3>Address: </h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <h3>Phone: </h3>
+          <h4>01212539478</h4>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="about-info bg-danger">
+          <h1>I'm Morgan Freeman Creative UI developer</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, a?</p>
+          <div class="row my-5">
+            <div class="col-md-4 ">
+              <div class="graduation bg-warning">
+                <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                <h2>Graduation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis nulla voluptates? Delectus magni amet ab explicabo dolores aspernatur nisi obcaecati quidem, nemo esse. Doloribus pariatur porro sed voluptatem quos.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem corporis perferendis praesentium, possimus officiis cupiditate assumenda odit maxime. Distinctio exercitationem corporis odit molestias fugit soluta temporibus iusto nihil possimus.</p>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="graduation bg-warning">
+                <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                <h2>Graduation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis nulla voluptates? Delectus magni amet ab explicabo dolores aspernatur nisi obcaecati quidem, nemo esse. Doloribus pariatur porro sed voluptatem quos.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem corporis perferendis praesentium, possimus officiis cupiditate assumenda odit maxime. Distinctio exercitationem corporis odit molestias fugit soluta temporibus iusto nihil possimus.</p>
+              </div>
+            </div> 
+            <div class="col-md-4 ">
+              <div class="graduation bg-warning">
+                <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                <h2>Graduation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis nulla voluptates? Delectus magni amet ab explicabo dolores aspernatur nisi obcaecati quidem, nemo esse. Doloribus pariatur porro sed voluptatem quos.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem corporis perferendis praesentium, possimus officiis cupiditate assumenda odit maxime. Distinctio exercitationem corporis odit molestias fugit soluta temporibus iusto nihil possimus.</p>
+  
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+
+<!--  **** JS ****5
+  1-internal
+  2-external
+  3-inline
+ 
+ -->
+  
+
+  <div class="bg-info w-75 m-auto p-5">
+    <label for="">Product name</label>
+    <input id="productName" type="text" class="form-control">
+    <label for="">Product price</label>
+    <input id="productPrice" type="number" class="form-control"> 
+    <label>Product category</label>
+    <input id="productCategory" type="text" class="form-control">
+    <label for="">Product Description</label>
+    <textarea id="productDesc" class="form-control" name="" ></textarea>
+    <button id="addBtn" class="btn btn-outline-dark float-end my-3">add product</button>
+    <div class="clearfix"></div>
+    <input id="searchInput" type="text" placeholder="search by name...." class="form-control my-2">
+
+    <table class="table">
+      <thead>
+        <th>name</th>
+        <th>price</th>
+        <th>category</th>
+        <th>describtion</th>
+        <th></th>
+        <th></th>
+      </thead> 
+      <tbody id="tableBody">
+        
+      </tbody>
+    </table> 
+
+  </div>
+
+ 
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+

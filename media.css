@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    background-size: 100% 100%;
+}
+#home img{
+    height: 600px;
+    width: 100%;
+}
+#home .navbar{
+    background-color: rgb(0, 0, 0,.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#home h1{
+    color: #fff;
+}
+#home .navbar .links{
+}
+#home .navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+#home .navbar .links ul li{
+    padding: 15px 15px 10px 15px;
+}
+#home .navbar .icon{
+    margin-right: 40px;
+    width: 50px;
+    height: 30px;
+    color: #fff;
+}
+#home .icon ul {
+    text-decoration: none;
+}
+
+#home .navbar .links ul a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#home .caption .caption-img{
+    float: right;
+    width: 40%;
+}
+#home .caption .caption-img img{
+    width: 100%;
+    height: 700px;
+}
+#home .caption .caption-text{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+} 
+#home .caption .caption-text h6{
+    margin-left: 60px;
+}
+#home .caption .caption-text p{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#home .caption .caption-text h1{
+    color: black;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#home .caption .caption-text button{
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: orangered;
+    padding: 10px 15px ;
+    width: fit-content;
+    margin-left: 60px;
+    border: none;
+    
+}
+#HeadPhones{
+    display: flex;
+}
+
